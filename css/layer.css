@@ -1,0 +1,82 @@
+                                @charset "utf-8";
+*{
+	margin:0;
+	padding:0;
+	
+	}
+@font-face{
+	font-family:'AlexBrush';
+	src:url('../fonts/AlexBrush-Regular.ttf');}
+
+@font-face{
+	font-family:'SonsieOne';
+	src:url(../fonts/SonsieOne-Regular.otf);}
+@font-face{
+	font-family:'after_shock';
+	src:url(../2014/fonts/After_Shok.ttf);
+}
+
+	
+.container1{
+	position:fixed;
+	top:10%;
+	left:10%;
+	font-size:5em;
+	font-weight:bold;
+	color:white;
+	font-family: 'Frijole', cursive;
+	}	
+	
+.container2{
+	position:fixed;
+	top:40%;
+	left:15%;
+	font-size:3em;
+        font-weight:bolder;
+	color:white;
+	font-family:AlexBrush;
+	
+}
+
+.container3{
+	position:fixed;
+	top:50%;
+	left:30%;
+	}
+
+.container4{
+	position:fixed;
+	top:70%;
+	right:40%;
+	font-size:35px;
+	font-weight:800px;
+	color:white;
+	
+}
+
+.container4 a{
+	text-decoration:none;
+	color:white;
+	text-transform:capitalize;	
+	position:fixed;
+	font-size:1em;
+	bottom:100px;
+	right:100px;
+        font-family: ‘Metrophobic’, Arial, serif; 
+        font-weight: 400;
+}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	/* CSS Document */
+
+
+                            

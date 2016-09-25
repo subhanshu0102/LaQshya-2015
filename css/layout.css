@@ -1,0 +1,145 @@
+@charset "utf-8";
+
+*{
+	margin:0px;
+	padding:0px;
+	border:thin black;
+}
+
+body{
+	background: #959595; /* Old browsers */
+	/* IE9 SVG, needs conditional override of 'filter' to 'none' */
+	background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIxMDAlIiB5Mj0iMTAwJSI+CiAgICA8c3RvcCBvZmZzZXQ9IjAlIiBzdG9wLWNvbG9yPSIjOTU5NTk1IiBzdG9wLW9wYWNpdHk9IjEiLz4KICAgIDxzdG9wIG9mZnNldD0iODclIiBzdG9wLWNvbG9yPSIjMzgzODM4IiBzdG9wLW9wYWNpdHk9IjEiLz4KICAgIDxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iIzFiMWIxYiIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgPC9saW5lYXJHcmFkaWVudD4KICA8cmVjdCB4PSIwIiB5PSIwIiB3aWR0aD0iMSIgaGVpZ2h0PSIxIiBmaWxsPSJ1cmwoI2dyYWQtdWNnZy1nZW5lcmF0ZWQpIiAvPgo8L3N2Zz4=);
+	background: -moz-linear-gradient(-45deg,  #959595 0%, #383838 87%, #1b1b1b 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, right bottom, color-stop(0%,#959595), color-stop(87%,#383838), color-stop(100%,#1b1b1b)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(-45deg,  #959595 0%,#383838 87%,#1b1b1b 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(-45deg,  #959595 0%,#383838 87%,#1b1b1b 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(-45deg,  #959595 0%,#383838 87%,#1b1b1b 100%); /* IE10+ */
+	background: linear-gradient(135deg,  #959595 0%,#383838 87%,#1b1b1b 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#959595', endColorstr='#1b1b1b',GradientType=1 ); /* IE6-8 fallback on horizontal gradient */
+
+	
+
+}
+.mainwrapper{
+	margin:0px auto;
+	padding:0px;
+	width:1200px;
+	
+}
+
+.topbar{
+	margin:0px;
+	width:100%;
+	height:110px;
+	background-image:url(../img/banner.jpg);
+	}
+
+
+.sidebar{
+	margin:0px 0px;
+	padding:0px;
+	width:180px ;
+	height:700px;
+	float:left;
+	
+}
+
+
+nav ul {
+	margin-top:150px;
+	list-style:none;
+	}
+	
+nav ul li{
+	margin:10px 0px 10px 0px;
+	padding:10px 10px 10px 10px;
+	border-bottom:thin groove;
+	box-shadow:inset;
+}
+nav ul li a{
+	font-size:26px;
+	text-decoration:none;
+	color:black;
+	}
+
+.bodywrap{
+	margin:0px;
+	padding:0px;
+	width:1000px;
+	float:right;
+	
+}
+
+.updates{
+	margin:0px;
+	padding:0px;
+	width:990px;
+	height:25px;
+	padding-top:5px;
+	padding-left:20px;
+	color:black;
+	border:thin #03C groove;
+	}
+	
+.containerbox{
+	margin:0px 0px 10px 0px;
+	padding:0px;
+	width:1000px;
+	height:300px;
+	display:block;
+	}
+	
+.containerbox2{
+	margin:10px 0px 10px 0px;
+	padding:0px;
+	width:1000px;
+	height:350px;
+
+	display:block;
+	}
+
+.banner{
+	margin:0px;
+	padding:0px;
+	width:740px;
+	
+	height:300px;
+	float:left;
+}
+
+.sidecontainer{
+	margin:0px 0px 0px 10px;
+	padding:0px;
+	width:250px;
+
+	display:block;
+	height:300px;
+	float:right;
+}
+.registerbox{
+	margin:0px 0px 0px 5px;
+	padding:0px;
+	width:110px;
+
+	height:290px;
+	float:left;
+}
+.social{
+	margin:0px 5px 0px 5px;
+	padding:0px;
+	width:110px;
+	height:290px;
+	float:right;
+	}
+	
+	
+article{
+	font-family: 'Lily Script One', cursive;
+}
+
+
+
+
+/* CSS Document */
+
